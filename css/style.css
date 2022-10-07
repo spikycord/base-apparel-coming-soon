@@ -1,0 +1,72 @@
+.container {
+  width: 1440px;
+  background-image: url(".././images/bg-pattern-desktop.svg");
+  font-size: 16px;
+  font-family: 'Josefin Sans';
+  color: hsl(0, 36%, 70%);
+}
+
+main, .sign-up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article {
+  padding: 100px;
+}
+
+.heading {
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+span, footer {
+  color: #000;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+input::placeholder { 
+  color: hsl(0, 36%, 70%);
+}
+
+#submitBtn {
+  width: 100px;
+  height: 54px;
+  background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 30px;
+  margin-left: -100px;
+}
+
+#submitBtn:hover {
+  box-shadow: 5px 5px 8px hsl(0, 36%, 70%);
+}
+
+#error-msg {
+  color: hsl(0, 93%, 68%);
+}
+
+#success-msg {
+  color: hsl(95, 31%, 38%);
+}
+
+.error-input {
+  border: hsl(0, 93%, 68%) 1px solid;
+  border-radius: 30px;
+  background-image: url(".././images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: 380px;
+}
