@@ -1,0 +1,28 @@
+<%- include('partials/header'); -%>
+
+<main>
+    <div class="row">
+        <div class="col-md-6 text-container">
+            <div class="heading">
+                <img src="public/images/logo.svg" alt="logo" />
+            </div>
+            <h1>We're<br /><span>coming<br />soon</span></h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+                up-to-date with announcements and our launch deals.</p>
+            <div class="sign-up">
+                <input type="email" id="email" placeholder="Email Address" />
+                <button id="submitBtn"><img src="public/images/icon-arrow.svg" /></button><br />
+            </div>
+            <p id="error-msg"></p>
+            <p id="success-msg"></p>
+        </div>
+        <div class="col-md-6 image-container">
+            <picture>
+                <source media="(max-width:650px)" srcset="public/images/hero-mobile.jpg">
+                <img src="public/images/hero-desktop.jpg" alt="girl-desktop" style="width:auto;">
+            </picture>
+        </div>
+    </div> 
+</main>
+
+<%- include('partials/footer'); -%>

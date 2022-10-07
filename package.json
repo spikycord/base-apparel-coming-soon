@@ -1,0 +1,25 @@
+{
+  "name": "base-apparel-coming-soon-master",
+  "version": "1.0.0",
+  "description": "small signup form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skozmi/base-apparel-coming-soon.git"
+  },
+  "author": "Miloš Mirković",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skozmi/base-apparel-coming-soon/issues"
+  },
+  "homepage": "https://github.com/skozmi/base-apparel-coming-soon#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
